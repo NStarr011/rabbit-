@@ -1,0 +1,3 @@
+ vicfg-user.pl <conn_options> -e user -o modify -l Nstarr011 -p 27_password -i <new user id> -n <new user name>
+ vicfg-user <conn_options> -e group -o add -d group42 -D 501
+vicfg-user <conn_options> -e group -o modify -d group42 -u test
